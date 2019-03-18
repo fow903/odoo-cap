@@ -1,0 +1,18 @@
+<odoo>
+  <data>
+    <record id="view_employee_form_uniform" model="ir.ui.view">
+      <field name="model">hr.employee</field>
+      <field name="name">Uniformes </field>
+      <field name="inherit_id" ref="hr.view_employee_form"/>
+      <field name="arch" type="xml">
+        <notebook position="inside">
+          <page name="uniform" string="Uniformes">
+            <group>
+              <field name="test"/>
+            </group>
+          </page>
+        </notebook>
+      </field>
+    </record>
+  </data>
+</odoo>
